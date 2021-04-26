@@ -1,2 +1,9 @@
-# edu-ui-kit
-educational UI kit for wapps
+<div dir="rtl">
+
+# کیت توسعه ظاهری وبلایت
+
+## نمونه تصاویر
+
+![Screenshots](./docs/screenshot.png)
+
+</div>
