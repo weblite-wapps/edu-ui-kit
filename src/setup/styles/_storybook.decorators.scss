@@ -1,0 +1,22 @@
+.storybook--decorator__centered-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.storybook--decorator__columned-layout {
+  display: flex;
+  flex-direction: column;
+  @supports (gap: 1px) {
+    gap: var(--inner-gap);
+  }
+  @supports not (gap: 1px) {
+    & > * {
+      margin-bottom: var(--inner-gap) !important;
+      &:last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}
